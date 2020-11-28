@@ -1,0 +1,6 @@
+# write prog to prompt user for days & rate per day to compute total pay. use 50 days & rate of 3.5 per day to test program. total pay =(days*rate per day)
+# use input to read string & float() to convert strng to no.
+d = input("Enter days:")
+r = input("Enter rate:")
+p = float(d) * float(r)
+print("Pay", p)
